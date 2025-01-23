@@ -1,1 +1,56 @@
-/* место для вашего кода */
+.header {
+  display: grid;
+  grid-template-columns: 1fr min-content 1fr;
+  align-items: center;
+}
+
+.header__menu {
+
+}
+
+.header__links-list {
+  display: flex;
+  gap: 20px;
+  list-style: circle;
+}
+
+.header__links-list-item {
+
+}
+
+.header__links-list-item_no-bullit {
+  list-style: none;
+}
+
+.header__link {
+
+}
+
+.header__link_active {
+  text-decoration: none;
+}
+
+.header__logo {
+  display: block;
+  width: 80px;
+}
+
+.header__logo-image {
+
+}
+
+.cover {
+
+}
+
+.lots {
+
+}
+
+.about {
+  
+}
+
+.footer {
+
+}
