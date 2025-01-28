@@ -25,7 +25,6 @@
 }
 
 .header__link {
-  font-family: "Raleway";
   font-weight: 400;
   font-size: 18px;
   line-height: 21.13px;
@@ -51,7 +50,6 @@
 
 .address {
   max-width: 240px;
-  font-family: "Raleway";
   font-weight: 400;
   font-size: 18px;
   font-style: normal;
@@ -132,7 +130,6 @@
 }
 
 .cover__description-text {
-  font-family: "Raleway";
   font-weight: 400;
   font-size: 22px;
   line-height: 28px;
@@ -144,7 +141,6 @@
 .bet-button {
   width: 256px;
   height: 51px;
-  font-family: "Raleway";
   font-weight: 400;
   font-size: 22px;
   text-transform: uppercase;
@@ -195,7 +191,6 @@
 }
 
 .card__title {
-  font-family: "Raleway";
   font-weight: 700;
   font-size: 22px;
   line-height: 26.4px;
@@ -208,7 +203,6 @@
 
 .card__text {
   position: relative;
-  font-family: "Raleway";
   font-weight: 400;
   font-size: 20px;
   line-height: 24px;
@@ -332,7 +326,6 @@
 }
 
 .footer__menu-link {
-  font-family: "Raleway";
   font-weight: 400;
   font-size: 18px;
   line-height: 21.13px;
