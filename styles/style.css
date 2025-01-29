@@ -95,6 +95,7 @@
   font-size: 100px;
   line-height: 115px;
   text-transform: uppercase;
+  letter-spacing: 30px;
   z-index: 1;
 }
 
@@ -110,10 +111,6 @@
 .aligned-text_right {
   text-align: right;
   margin-right: -30px;
-}
-
-.letter-spacing {
-  letter-spacing: 30px;
 }
 
 .cover__description {
@@ -185,6 +182,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  z-index: 1;
 }
 
 .card__title {
@@ -208,17 +206,14 @@
 
 .card_type_film {
   background-image: url(../images/card-lot-01.jpg);
-  z-index: 1;
 }
 
 .card_type_book {
   background-image: url(../images/card-lot-02.jpg);
-  z-index: 1;
 }
 
 .card_type_picture {
   background-image: url(../images/card-lot-03.jpg);
-  z-index: 1;
 }
 
 .lots__look-more-link {
@@ -278,7 +273,6 @@
   font-weight: 400;
   font-size: 20px;
   line-height: 24px;
-  
 }
 
 .footer {
@@ -324,16 +318,23 @@
 
 .footer__social-list {
   justify-self: end;
-  width: 240px;
   display: flex;
-  gap: 48px;
+  flex-wrap: wrap;
+  flex-direction: row-reverse;
+   /*
+    Сделал реверс, чтобы при добавлении
+    новых элементов изначальные три оставались
+    на своих местах, как в заготовке проекта.
+  */
+  gap: 24px 48px;
+  /*
+    Отступ между колонками задал как в макете,
+    а отступ между строками задал в половину
+    отступа между колонками, потому что подумал,
+    что так будет симпатичнее.
+  */
   list-style: none;
   justify-content: end;
-}
-
-.footer__social-list-item {
-  width: 48px;
-  height: 48px;
 }
 
 .footer__social-link {
